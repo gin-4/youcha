@@ -1,0 +1,77 @@
+{
+  "pages": [{
+      "path": "pages/home/home",
+      "style": {
+        "navigationBarTitleText": "检测"
+      }
+    },
+    {
+      "path": "pages/jiaoyi/jiaoyi",
+      "style": {
+        "navigationBarTitleText": "交易市场"
+      }
+    },
+    {
+      "path": "pages/jiance/jiance",
+      "style": {
+        "navigationBarTitleText": "社区"
+      }
+    },
+    {
+      "path": "pages/my/my",
+      "style": {
+        "navigationBarTitleText": "个人中心"
+      }
+    },
+    {
+      "path" : "pages/ss/ss",
+      "style" : 
+      {
+        "navigationBarTitleText" : ""
+      }
+    }
+  ],
+  "subPackages": [{
+    "root": "subpkg",
+    "pages": [{
+      "path": "goods_detial/goods_detial",
+      "style": {
+        "navigationBarTitleText": ""
+      }
+    }]
+  }],
+  "globalStyle": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "有茶交易",
+    "navigationBarBackgroundColor": "#0055ff",
+    "backgroundColor": "#FFFFFF"
+  },
+  "tabBar": {
+    "selectedColor": "#C00000",
+    "list": [{
+        "pagePath": "pages/home/home",
+        "text": "检测",
+        "iconPath": "static/tab_icons/home.png",
+        "selectedIconPath": "static/tab_icons/home-active.png"
+      },
+      {
+        "pagePath": "pages/jiaoyi/jiaoyi",
+        "text": "交易市场",
+        // "iconPath": "static/tab_icons/cate.png",
+        "selectedIconPath": "static/tab_icons/cate-active.png"
+      },
+      {
+        "pagePath": "pages/jiance/jiance",
+        "text": "社区",
+        // "iconPath": "static/tab_icons/cart.png",
+        "selectedIconPath": "static/tab_icons/cart-active.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "static/tab_icons/my.png",
+        "selectedIconPath": "static/tab_icons/my-active.png"
+      }
+    ]
+  }
+}
